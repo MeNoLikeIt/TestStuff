@@ -10,7 +10,6 @@ namespace ConsoleTestStuff
     {
         public int Time { get; set; }
         public int Speed { get; set; }
-        public string Style { get; set; }
         public string Base { get; set; }
         public override string ToString ()
         {
