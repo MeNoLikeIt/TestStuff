@@ -13,7 +13,6 @@ namespace ConsoleTestStuff
             var sarasa = new beat();
             sarasa.Base = "Folk";
             sarasa.Speed = 120;
-            sarasa.Style = "Rock";
             sarasa.Time = 120;
 
             Console.WriteLine(sarasa.ToString());
