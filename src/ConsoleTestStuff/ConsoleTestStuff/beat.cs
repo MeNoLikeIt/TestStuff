@@ -13,7 +13,7 @@ namespace ConsoleTestStuff
         public string Base { get; set; }
         public override string ToString ()
         {
-            return string.Format("Time {0} Speed {1} Style {2} Base {3}", Time, Speed, Style, Base);
+            return string.Format("Time {0} Speed {1} Base {2} ", Time, Speed, Base);
         }
     }
 }
