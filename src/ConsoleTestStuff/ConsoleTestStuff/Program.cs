@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleTestStuff
 {
@@ -10,10 +6,7 @@ namespace ConsoleTestStuff
     {
         static void Main (string[] args)
         {
-            var sarasa = new beat();
-            sarasa.Base = "Folk";
-            sarasa.Speed = 120;
-            sarasa.Time = 120;
+            var sarasa = new beat {Base = "Folk", Speed = 120, Time = 120};
 
             Console.WriteLine(sarasa.ToString());
             Console.ReadKey();
